@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sandhya Tigadolli | Java Full Stack Developer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>
+:root{--bg:#0b1020;--surf:#131a30;--line:#25304f;--text:#e6e9f5;--muted:#8f9abb;--a:#7c5cff;--b:#22d3ee;--code:#a5f3b0;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f6f7fd;--surf:#fff;--line:#dfe3f3;--text:#171a2e;--muted:#5b6482;--code:#0a7a3a}}
+:root[data-theme="light"]{--bg:#f6f7fd;--surf:#fff;--line:#dfe3f3;--text:#171a2e;--muted:#5b6482;--code:#0a7a3a}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.65}
+.wrap{max-width:1000px;margin:0 auto;padding:0 22px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:56px}
+nav b{font-family:ui-monospace,Menlo,Consolas,monospace;color:var(--b)}
+nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:.92rem}
+nav a:hover{color:var(--text)}
+.hero{padding:70px 0 50px;display:grid;grid-template-columns:1.1fr .9fr;gap:34px;align-items:center}
+.hi{font-family:ui-monospace,Menlo,Consolas,monospace;color:var(--b)}
+h1{font-size:clamp(2.2rem,6vw,3.4rem);line-height:1.1;margin:8px 0}
+.grad{background:linear-gradient(90deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--muted);max-width:480px}
+.btn{display:inline-block;padding:11px 22px;border-radius:10px;text-decoration:none;font-weight:600;margin:6px 8px 0 0}
+.p{background:linear-gradient(90deg,var(--a),var(--b));color:#fff}
+.s{border:1px solid var(--line);color:var(--text)}
+.term{background:#0a0e1c;border:1px solid var(--line);border-radius:12px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.82rem;color:#d6dcf5;overflow-x:auto}
+.term .bar{padding:9px 12px;border-bottom:1px solid #25304f;display:flex;gap:6px}
+.term .bar i{width:10px;height:10px;border-radius:50%;background:#ff5f57}
+.term .bar i:nth-child(2){background:#febc2e}.term .bar i:nth-child(3){background:#28c840}
+.term pre{margin:0;padding:14px 16px;white-space:pre}
+.k{color:#c4b5fd}.g{color:#a5f3b0}.c{color:#7f8bb3}
+section{padding:46px 0}
+h2{font-size:1.7rem;margin:0 0 22px}
+h2 span{font-family:ui-monospace,Menlo,Consolas,monospace;color:var(--a);font-size:1rem;margin-right:8px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.stat,.card{background:var(--surf);border:1px solid var(--line);border-radius:14px;padding:18px}
+.stat b{display:block;font-size:1.6rem;color:var(--b)}
+.stat small{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card h3{margin:0 0 4px}
+.card ul{padding-left:18px;margin:10px 0;color:var(--muted)}
+.chip{display:inline-block;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.76rem;border:1px solid var(--line);border-radius:20px;padding:2px 10px;margin:2px 3px 2px 0;color:var(--code)}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.skills .card h4{margin:0 0 8px;color:var(--a)}
+.tl{border-left:2px solid var(--line);margin-left:6px;padding-left:22px}
+.tl .card{margin-bottom:16px;position:relative}
+.tl .card::before{content:"";position:absolute;left:-30px;top:22px;width:12px;height:12px;border-radius:50%;background:var(--a);border:3px solid var(--bg)}
+.when{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;color:var(--b)}
+a.l{color:var(--b);text-decoration:none;font-size:.9rem}
+footer{border-top:1px solid var(--line);padding:40px 0;text-align:center;color:var(--muted)}
+footer h2{color:var(--text)}
+@media(max-width:760px){.hero,.grid,.skills{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}nav a{margin-left:10px;font-size:.8rem}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"></b><div><a href="#work">Projects</a><a href="#exp">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></div></nav>
+
+<div class="wrap">
+  <div class="hero">
+    <div>
+      <h1>I’m Sandhya, a <span class="grad">Software Developer.</h1>
+      <p>MCA graduate (CGPA 9.4) who builds REST APIs with Spring Boot and clean React interfaces. Open to entry-level software engineering roles in Bengaluru.</p>
+      <a class="btn p" href="#work">See my work</a><a class="btn s" href="#contact">Hire me</a>
+    </div>
+    <div class="term">
+      <div class="bar"><i></i><i></i><i></i></div>
+<pre><span class="k">public class</span> Developer {
+  String name  = <span class="g">"Sandhya"</span>;
+  String stack = <span class="g">"Java, Spring Boot,
+                  React, MySQL"</span>;
+  String goal  = <span class="g">"Ship scalable apps"</span>;
+
+  <span class="k">boolean</span> openToWork() {
+    <span class="k">return true</span>;
+  }
+}</pre>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><b>9.4</b><small>MCA CGPA</small></div>
+    <div class="stat"><b>2</b><small>Internships</small></div>
+    <div class="stat"><b>2</b><small>Full-stack projects</small></div>
+    <div class="stat"><b>60%</b><small>Less manual testing effort</small></div>
+  </div>
+
+  <section id="work">
+    <h2><span>01.</span>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Personal Finance Management System</h3>
+        <span class="chip">React</span><span class="chip">Spring Boot</span><span class="chip">MySQL</span><span class="chip">JWT</span>
+        <ul>
+          <li>Monthly transaction tracking with goal-based budgeting and income-expense sync.</li>
+          <li>Dashboard with multi-timeframe charts.</li>
+          <li>Controller-Service-Repository layering for maintainability.</li>
+        </ul>
+        <a class="l" href="https://github.com/sandhyatigadolli/expenses-tracker">View on GitHub →</a>
+      </div>
+      <div class="card">
+        <h3>Automated Testing Platform</h3>
+        <span class="chip">Spring Boot</span><span class="chip">React</span><span class="chip">Selenium</span><span class="chip">RabbitMQ</span><span class="chip">Docker</span>
+        <ul>
+          <li>Cut manual testing effort by 60%.</li>
+          <li>Selenium UI tests run asynchronously and concurrently through RabbitMQ.</li>
+          <li>Dockerised RabbitMQ for a consistent dev setup.</li>
+        </ul>
+        <a class="l" href="https://github.com/sandhyatigadolli/automated-test-framework">View on GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="exp">
+    <h2><span>02.</span>Experience</h2>
+    <div class="tl">
+      <div class="card">
+        <div class="when">Oct 2025 – Apr 2026</div>
+        <h3>Full Stack Development Trainee · KodNest</h3>
+        <ul><li>6-month program in Java, DSA, SQL, web development and REST APIs.</li><li>Built CRUD-based full-stack apps with Spring Boot, React and MySQL in Agile workflows.</li></ul>
+      </div>
+      <div class="card">
+        <div class="when">Sept 2025 – Nov 2025</div>
+        <h3>Infosys Springboard · Internship 6.0</h3>
+        <ul><li>Built an automated test execution framework with Spring Boot and React.</li><li>Integrated Selenium, RabbitMQ and Docker for async UI test runs.</li></ul>
+      </div>
+      <div class="card">
+        <div class="when">2023 – 2025</div>
+        <h3>MCA · RNS Institute of Technology</h3>
+        <ul><li>CGPA 9.4/10. Earlier: B.Sc Computer Science, JSS SMI, Dharwad (8.35/10).</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2><span>03.</span>Skills</h2>
+    <div class="skills">
+      <div class="card"><h4>Languages</h4><span class="chip">Java</span><span class="chip">SQL</span><span class="chip">JavaScript</span><span class="chip">HTML5</span><span class="chip">CSS3</span></div>
+      <div class="card"><h4>Backend</h4><span class="chip">Spring Boot</span><span class="chip">Hibernate</span><span class="chip">JPA</span><span class="chip">REST APIs</span><span class="chip">JWT</span></div>
+      <div class="card"><h4>Frontend &amp; Data</h4><span class="chip">React</span><span class="chip">MySQL</span></div>
+      <div class="card"><h4>Tools</h4><span class="chip">Git</span><span class="chip">Maven</span><span class="chip">Docker</span><span class="chip">VS Code</span><span class="chip">Selenium</span><span class="chip">RabbitMQ</span></div>
+      <div class="card"><h4>Fundamentals</h4><span class="chip">OOP</span><span class="chip">DSA</span><span class="chip">SDLC</span><span class="chip">Agile</span></div>
+      <div class="card"><h4>Certifications</h4><span class="chip">Intro to AI · Coursera</span><span class="chip">Ethical Hacking Hackathon</span></div>
+    </div>
+  </section>
+</div>
+
+<footer id="contact"><div class="wrap">
+  <h2>Let’s build something together</h2>
+  <p><b>tigadollisandhya20@gmail.com</b> · +91 7899518133</p>
+  <button class="btn p" onclick="copyEmail(this)" style="border:0;cursor:pointer;font-size:.95rem">Copy email</button>
+  <p><a class="l" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sandhya-subhas-tigadolli-267a882b6/">LinkedIn</a> · <a class="l" target="_blank" rel="noopener noreferrer" href="https://github.com/sandhyatigadolli">GitHub</a> · <a class="l" target="_blank" rel="noopener noreferrer" href="https://leetcode.com/u/Sandhya_s_t/">LeetCode</a></p>
+</div></footer>
+<script>
+function copyEmail(b){var e="tigadollisandhya20@gmail.com";try{navigator.clipboard.writeText(e).then(function(){b.textContent="Copied ✓"},function(){b.textContent="Select the email above"})}catch(x){b.textContent="Select the email above"}}
+</script>
+</body>
+</html>
